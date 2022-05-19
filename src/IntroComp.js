@@ -4,7 +4,7 @@ import Logo from "./Logo"
 
 function IntroComp(){
   return(
-    <div className = "intro">
+    <div id = 'intro' className = "intro">
       <Header/>
       <Logo/>
     </div>

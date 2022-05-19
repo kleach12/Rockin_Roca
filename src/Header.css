@@ -1,16 +1,22 @@
 .header{
   padding-top: 10px;
-  color: red;
+  color: rgb(128, 24, 24);
   font-family: 'Cookie', cursive;
 }
 
+nav{
+  position: fixed;
+  right: 25px;
+}
+
 .navlinks {
-  color: red;
-  font-size: 20px;
-  font-weight: 500;
+  color: rgb(128, 24, 24);
+  background-color:rgb(255, 255, 255 , .5) ;
+  font-size: 30px;
+  font-weight: 700;
   text-decoration: none;
   border-style: solid; 
-  border-color: red;
+  border-color: rgb(128, 24, 24);
   float: right;
   margin: 5px;
   padding-left: 10px;
@@ -19,5 +25,5 @@
 
 .navlinks:hover{
   color: white;
-  background-color: red;
+  background-color: rgb(128, 24, 24, .5);
 }
