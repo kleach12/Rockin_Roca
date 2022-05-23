@@ -2,13 +2,14 @@
 import './App.css';
 import IntroComp from './IntroComp';
 import OurStory from './OurStory' 
-
+import RocaList from './RocaList';
  
 function App() {
   return (
     <div>
       <IntroComp/>
       <OurStory/>
+      <RocaList/>
     </div>
   )
 }
