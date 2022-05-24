@@ -1,0 +1,16 @@
+{
+  "roca": [
+    {
+      "id": 1,
+      "name": "Example Article",
+      "price": "This is an example.",
+      "image":""
+    },
+    {
+      "id": 2,
+      "name": "Example Article",
+      "price": "This is an example.",
+      "image":""
+    }
+  ]
+}
