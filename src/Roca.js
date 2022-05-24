@@ -8,8 +8,9 @@ function Roca({name, price, image}){
     <div class="card">
         <img src={image} alt="Avatar" />
         <div class="container">
-          <h4><b>{name}</b></h4>
+          <h4>{name}</h4>
           <p>{price}</p>
+          <button class = '.btn'>Add to Cart</button>
         </div>
     </div>
   </div>

@@ -13,3 +13,13 @@
   justify-content: center;
   display: flex;
 }
+
+.cards {
+  display: inline-block;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.cards::-webkit-scrollbar {
+  display: none;
+}

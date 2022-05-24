@@ -23,7 +23,9 @@ function RocaList(){
   return(
     <div id = "RocaList" >
       <h2>Roca</h2>
-      {candyArr}
+      <div class = "cards">
+        {candyArr}
+      </div>
     </div>
   )
 }
