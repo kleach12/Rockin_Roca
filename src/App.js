@@ -3,6 +3,7 @@ import './App.css';
 import IntroComp from './IntroComp';
 import OurStory from './OurStory' 
 import RocaList from './RocaList';
+import Contact from './Contact';
  
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <IntroComp/>
       <OurStory/>
       <RocaList/>
+      <Contact/>
     </div>
   )
 }

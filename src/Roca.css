@@ -15,7 +15,7 @@
    background-color: #fff;
    border-radius: 0.5rem;
    box-shadow: 0.10rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-   margin: 5rem 3rem 1rem 3rem ;
+   margin: 5rem 2rem 1rem 2rem ;
    padding-bottom: 1rem;
    background-image: linear-gradient(
      var(--card-gradient),
@@ -29,6 +29,7 @@
   background-color: white;
   margin: 20px 20px 20px 20px; */
 }
+
 
 .card img {
 
@@ -45,20 +46,38 @@
 }
 
 h4{
+  color:rgb(128, 24, 24);
   font-size: 30px;
   text-align: center;
   display: flex;
   justify-content: center;
+  margin: 0px 5px 0px 5px;
 }
 
 p{
+  color:rgb(128, 24, 24);
   text-align: center;
   display: flex;
   justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
 }
 
-.btn{
+button {
+  background-color: rgb(128, 24, 24);
+  color:white;
+  padding: 10px 10px 10px 10px;
+  font-family: 'Cookie', cursive;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgb(145, 41, 41);
+  box-shadow: 0px 0px 10px 1px black;
+}
+
+.container{
   text-align: center;
-  display: flex;
-  justify-content: center;
 }

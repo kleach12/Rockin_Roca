@@ -11,12 +11,13 @@ nav{
 
 .navlinks {
   color: rgb(128, 24, 24);
-  background-color:rgb(255, 255, 255 , .5) ;
+  background-color:rgb(255, 255, 255 , .7) ;
   font-size: 30px;
   font-weight: 700;
   text-decoration: none;
   border-style: solid; 
   border-color: rgb(128, 24, 24);
+  border-radius: 5px;
   float: right;
   margin: 5px;
   padding-left: 10px;
@@ -25,5 +26,5 @@ nav{
 
 .navlinks:hover{
   color: white;
-  background-color: rgb(128, 24, 24, .5);
+  background-color: rgb(128, 24, 24, .7);
 }

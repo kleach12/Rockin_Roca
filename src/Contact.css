@@ -1,0 +1,15 @@
+
+h2{
+  font-size: 75px;
+  color: rgb(128, 24, 24);
+  font-family: 'Cookie', cursive;
+  margin: 50px 0px 0px 0px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+p{
+  color: rgb(128, 24, 24);
+  font-family: 'Cookie', cursive;
+}
