@@ -3,13 +3,22 @@
   color: rgb(128, 24, 24);
   font-family: 'Cookie', cursive;
 }
-
-nav{
-  position: fixed;
-  right: 25px;
+#dropdown-basic-button{
+  font-size: 25px;
+  background-color: rgb(128, 24, 24);
+  padding: 9px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  border: none;
 }
 
-.navlinks {
+/* nav{
+  position: fixed;
+  right: 25px;
+} */
+
+/* .navlinks {
   color: rgb(128, 24, 24);
   background-color:rgb(255, 255, 255 , .5) ;
   font-size: 30px;
@@ -21,9 +30,9 @@ nav{
   margin: 5px;
   padding-left: 10px;
   padding-right: 10px;
-}
+} */
 
-.navlinks:hover{
+/* .navlinks:hover{
   color: white;
   background-color: rgb(128, 24, 24, .5);
-}
+} */

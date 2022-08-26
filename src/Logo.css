@@ -1,17 +1,17 @@
 h1{
-  font-size: 200px;
+  font-size: 600%;
   font-family: 'Cookie', cursive;
-  color: rgb(128, 24, 24);
-  padding: 100px 0px 200px 0px;
-  margin: 50px 0px 0px 0px;
+  color: white;
+  padding-top: 50%;
+  padding-bottom: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: color-change 5s infinite
 }
 
-@keyframes color-change {
+/* @keyframes color-change {
   0% { color: rgb(128, 24, 24); }
   50% { color: rgb(30, 121, 44); }
   100% { color: rgb(128, 24, 24); }
-}
+} */
