@@ -1,17 +1,17 @@
 // import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import IntroComp from './IntroComp';
-import OurStory from './OurStory' 
-import RocaList from './RocaList';
- 
+import "./App.css";
+import IntroComp from "./IntroComp";
+import OurStory from "./OurStory";
+import RocaList from "./RocaList";
+
 function App() {
   return (
     <div>
-      <IntroComp/>
-      <OurStory/>
-      <RocaList/>
+      <IntroComp />
+      <OurStory />
+      <RocaList />
     </div>
-  )
+  );
 }
 
 export default App;

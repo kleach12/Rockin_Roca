@@ -1,12 +1,17 @@
-#OurStory{
-  margin: 0px 20px 0px 20px;
+.ourStory {
+  font-family: 'Cookie', cursive;;
+  background-color: white;
+  box-shadow: 0px 0px 25px 12px ;
+  border-radius: 40px 40px 0px 0px ;
+  padding: 50px 0px 0px 0px;
+  margin: -60px 0px 0px 0px;
 }
 
-#OurStory h2{
+.ourStory h2{
   font-size: 75px;
   color: rgb(128, 24, 24);
+  margin: 0px;
   font-family: 'Cookie', cursive;
-  margin: 50px 0px 0px 0px;
   text-align: center;
   justify-content: center;
   display: flex;

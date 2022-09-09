@@ -1,4 +1,4 @@
-.header{
+/* .header{
   padding-top: 10px;
   color: rgb(128, 24, 24);
   font-family: 'Cookie', cursive;
@@ -8,10 +8,11 @@
   background-color: rgb(128, 24, 24);
   padding: 9px;
   margin-left: 10px;
+  margin-top: 10px;
   border-radius: 5px;
   color: white;
   border: none;
-}
+} */
 
 /* nav{
   position: fixed;
@@ -36,3 +37,77 @@
   color: white;
   background-color: rgb(128, 24, 24, .5);
 } */
+
+.floating-btn {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  background: rgba(128, 24, 24, 0.9);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+nav {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(128, 24, 24);
+  opacity: 0.92;
+  /* animation: MoveUpDown 1s linear infinite; */
+  transition: 0.7s ease-in-out;
+}
+
+nav.active {
+  transform: translate(0%, 0%);
+}
+
+.tags {
+  color: #d9d9d9;
+  display: block;
+  padding: 70px 25px;
+  font-size: 30px;
+  text-decoration: none;
+}
+nav a {
+  font-family: "Cookie", cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 75px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a::hover {
+  background-color: white;
+}
+
+.close-curtain {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  cursor: pointer;
+  color: white;
+}
+
+@media screen and (max-width: 2500px) {
+  nav {
+    transform: translateX(-100%);
+  }
+}
