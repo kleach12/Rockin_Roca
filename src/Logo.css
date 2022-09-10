@@ -1,7 +1,7 @@
 h1 {
   font-size: 600%;
   font-family: "Cookie", cursive;
-  color: white;
+  color: red;
   margin-top: 0;
   padding-top: 50%;
   padding-bottom: 50%;
@@ -11,8 +11,28 @@ h1 {
   animation: color-change 5s infinite;
 }
 
+#logo {
+  width: 100%;
+  height: auto;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* @keyframes color-change {
   0% { color: rgb(128, 24, 24); }
   50% { color: rgb(30, 121, 44); }
   100% { color: rgb(128, 24, 24); }
 } */
+
+@media screen and (min-width: 825px) {
+  #logo {
+    width: 50%;
+    height: auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,8 +1,45 @@
 .intro {
-  background: url("../Images/RR_BG4.jpg");
+  background-color: #d6ecd8;
   background-position: center;
   background-size: cover;
-  /* box-shadow: 0px 0px 25px 12px; */
-  /* border-radius:0px 0px 40px 40px ; */
-  height: 110vh;
+  height: 500px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar {
+  margin-top: 0px;
+  background-color: #344269;
+  color: #f3824e;
+  height: 15%;
+}
+
+@media screen and (min-width: 420px) {
+  .intro {
+    background-color: #d6ecd8;
+    background-position: center;
+    background-size: cover;
+
+    height: 500px;
+    padding-bottom: 300px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 825px) {
+  .intro {
+    background-color: #d6ecd8;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  padding-bottom: 300px;
+  margin-bottom: 50px;
+  }
 }

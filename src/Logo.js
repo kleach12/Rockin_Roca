@@ -1,11 +1,12 @@
-import "./Logo.css"
+import "./Logo.css";
+import "./Images/rocfin1.png";
 
-function Logo(){
-  return(
+function Logo() {
+  return (
     <div>
-      <h1> Rockin Roca </h1>
+      <img id = 'logo' src= {require("./Images/rocfin1.png")} alt="Roc-N-Roca Logo" />
     </div>
-  )
+  );
 }
 
-export default Logo
+export default Logo;

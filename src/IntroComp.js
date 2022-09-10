@@ -5,8 +5,12 @@ import Logo from "./Logo";
 function IntroComp() {
   return (
     <div id="intro" className="intro">
-      <Header />
-      <Logo />
+      <div id ="navbar">
+        <Header />
+      </div>
+      <div className="center">
+        <Logo />
+      </div>
     </div>
   );
 }

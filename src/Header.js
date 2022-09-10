@@ -44,19 +44,20 @@ function Header() {
             className="close-curtain"
           />
         )}
-        {/* navlinks toggle open and closed when click so user does not hae tto do it manually*/}
-        <a href="#IntroComp" className="navlinks" onClick={handleToggleNav}>
-          {" "}
-          Home{" "}
-        </a>
-        <a href="#OurStory" className="navlinks" onClick={handleToggleNav}>
-          {" "}
-          Our Story{" "}
-        </a>
-        <a href="#RocaList" className="navlinks" onClick={handleToggleNav}>
-          {" "}
-          Roca{" "}
-        </a>
+        <div className="active-content">
+          <a href="#IntroComp" className="menuNav" onClick={handleToggleNav}>
+            {" "}
+            Home{" "}
+          </a>
+          <a href="#OurStory" className="menuNav" onClick={handleToggleNav}>
+            {" "}
+            Our Story{" "}
+          </a>
+          <a href="#RocaList" className="menuNav" onClick={handleToggleNav}>
+            {" "}
+            Roca{" "}
+          </a>
+        </div>
       </nav>
     </div>
   );
