@@ -2,6 +2,7 @@ import "./Header.css";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 function Header() {
   const [toggleNav, setToggleNav] = useState(false);
@@ -25,6 +26,20 @@ function Header() {
     setToggleNav(!toggleNav);
   }
 
+  const boxVariants = {
+    visible: {
+      opacity: 1,
+      scale: 1,
+      x: 0,
+      transition: { ease: "easeOut", duration: 1 },
+    },
+    hidden: {
+      opacity: 0,
+      scale: 0,
+      x: -100,
+    },
+  };
+
   return (
     <div>
       {checkWidth < 2500 && (
@@ -44,18 +59,34 @@ function Header() {
           />
         )}
         <div className="active-content">
-          <a href="#IntroComp" className="menuNav" onClick={handleToggleNav}>
+          <motion.a
+            href="#IntroComp"
+            className="menuNav"
+            onClick={handleToggleNav}
+            variants={boxVariants}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ ease: "easeOut", duration: 1 }}
+          >
             {" "}
             Home{" "}
-          </a>
-          <a href="#OurStory" className="menuNav" onClick={handleToggleNav}>
+          </motion.a>
+          <motion.a
+            href="#OurStory"
+            className="menuNav"
+            onClick={handleToggleNav}
+          >
             {" "}
             Our Story{" "}
-          </a>
-          <a href="#RocaList" className="menuNav" onClick={handleToggleNav}>
+          </motion.a>
+          <motion.a
+            href="#RocaList"
+            className="menuNav"
+            onClick={handleToggleNav}
+          >
             {" "}
             Roca{" "}
-          </a>
+          </motion.a>
         </div>
       </nav>
     </div>

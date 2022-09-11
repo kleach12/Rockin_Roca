@@ -22,7 +22,7 @@ function OurStory() {
         variants={boxVariants}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ ease: "easeOut", duration: 1 }}
+        transition={{ ease: "easeOut", duration: 3 }}
       >
         <motion.h2
           variants={boxVariants}

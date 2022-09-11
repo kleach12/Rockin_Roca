@@ -1,38 +1,31 @@
-h1 {
-  font-size: 600%;
-  font-family: "Cookie", cursive;
-  color: red;
-  margin-top: 0;
-  padding-top: 50%;
-  padding-bottom: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: color-change 5s infinite;
-}
-
 #logo {
   width: 100%;
   height: auto;
   border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-top: 100px;
   margin: 100px 0px;
 }
 
-/* @keyframes color-change {
-  0% { color: rgb(128, 24, 24); }
-  50% { color: rgb(30, 121, 44); }
-  100% { color: rgb(128, 24, 24); }
-} */
+@media screen and (min-width: 420px) {
+  #logo {
+    width: 100%;
+    height: auto;
+    border: none;
+    padding-top: 50px;
+    margin: 100px 0px;
+  }
 
+}
 @media screen and (min-width: 825px) {
   #logo {
     width: 50%;
     height: auto;
     border: none;
+    padding-top: 0px;
+    margin: 0px
+  }
+
+  .big-screen{
     display: flex;
     align-items: center;
     justify-content: center;

@@ -7,7 +7,6 @@
   margin-bottom: 50px;
 }
 
-
 .center {
   display: flex;
   justify-content: center;
@@ -35,10 +34,10 @@
 @media screen and (min-width: 825px) {
   .intro {
     background-color: #d6ecd8;
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-  padding-bottom: 300px;
-  margin-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-bottom: 450px;
+    margin-bottom: 50px;
   }
 }
