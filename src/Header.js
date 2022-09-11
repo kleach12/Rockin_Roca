@@ -22,7 +22,6 @@ function Header() {
 
   // toggles the curtain menu to show and hide
   function handleToggleNav() {
-    console.log(toggleNav);
     setToggleNav(!toggleNav);
   }
 

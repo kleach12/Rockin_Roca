@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   height: 500px;
-  padding-bottom: 50px;
+  padding-bottom: 350px;
   margin-bottom: 50px;
 }
 
@@ -17,7 +17,7 @@
 #navbar {
   margin-top: 0px;
   background-color: #344269;
-  color: #f3824e;
+  color: #f1cdcf;
   height: 15%;
 }
 
@@ -26,9 +26,8 @@
     background-color: #d6ecd8;
     background-position: center;
     background-size: cover;
-
     height: 500px;
-    padding-bottom: 300px;
+    padding-bottom: 700px;
     margin-bottom: 50px;
   }
 }
