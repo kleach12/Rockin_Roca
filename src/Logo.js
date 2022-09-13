@@ -9,16 +9,21 @@ function Logo() {
         id="logo"
         src={require("./Images/rocfin1.png")}
         alt="Roc-N-Roca Logo"
-        initial = {{opacity: 0}}
-        animate={{ 
-          opacity: 1,
-          scale: [2, 1],
+        initial={{
+          y: -300,
+          opacity: 0,
         }}
-        // transition={{
-        //   delay: 0.5,
-        //   x: { duration: 1 },
-        //   ease: "circIn" 
-        // }}
+        animate={{
+          y:0,
+          opacity: 1,
+        }}
+        transition={{
+          type: "spring",
+          stiffness: 200,
+          mass: 5,
+          damping: 5,
+          scale:[1,2,1,2]
+        }}
       />
     </div>
   );
